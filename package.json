@@ -1,0 +1,35 @@
+{
+  "name": "awp-endpoint",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc --outDir dist"
+  },
+  "engines":{
+     "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.2",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.18",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@ag-ui/client": "^0.0.27",
+    "@ag-ui/core": "^0.0.27",
+    "@ag-ui/encoder": "^0.0.27",
+    "express": "^5.1.0",
+    "ollama": "^0.5.15",
+    "openai": "^4.98.0",
+    "uuid": "^11.1.0"
+  }
+}
